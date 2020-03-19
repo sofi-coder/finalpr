@@ -1,64 +1,79 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Beauty Salon Evi</title>
-    <link rel="stylesheet" href="css/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Beauty Salon Evi</title>
+  <link rel="stylesheet" href="css/index.css">
+
 </head>
+
 <body>
-   <header> 
-    <nav>
-      <h1>Beauty Salon Evi</h1>
-     <ul class="top-menu">
-				<li><a href="#services">Головна</a></li>
-				<li><a href="#masters">Наші Роботи</a></li>
-				<li><a href="#work">Послуги</a></li>
-				<li><a href="#contacts">Контакти</a></li>
-			</ul>
-     
-    </nav>
-      <div class="banner">
-      </div>
-   </header> 
- <main>
- <p>Салон краси Evi у Львові пропонує повний спектр процедур догляду та працює виключно з професійною косметикою. Бути красивою та доглянутою - це мрія кожної жінки. Наші спеціалісти докладуть усіх зусиль, щоб здивувати вас. Ми також єдиний салон на вулиці Володимира Великого, де персонал розмовляє англійською. Ми знаємо секрет, як підкреслити вашу природну привабливість і уповільнити плин часу. У нашому салоні краси завжди по-домашньому затишна і доброзичлива атмосфера, увага і турбота про кожного клієнта. Це те місце, куди вам захочеться повернутися знову і знову. 
- </p>
- <header>
-
-
- <section id="work">
-				<h2>Наші роботи</h1>
-				
-				<img src="img/makeup.jpg" width="450" height="400" alt="work">
-                <img src="img/hairboy.jpg" width="450" height="400" alt="work">
-        </section>
-
-
-<section id="services">
-            <h2>Наші послуги:</h2>
-            
-            
-            <h2>Індивідуальні жіночі та чоловічі стрижки </h2>
-            
-            <h2>Дитячі стрижки</h2>
-            
-            
-            <h2>Послуги майстра манікюру</h2>
-            
-            
-            <h2>Нарощення вій</h2>
-            
+<header>
   <nav>
-  <article class="social-media">
+    
+      <h1>Beauty Salon Evi</h1>
+    <section id="home">
+      <ul class="top-menu">
+        <li><a href="#home" id="home_button" >Головна</a></li>
+        <li><a href="#work" id="work_button" >Наші Роботи</a></li>
+        <li><a href="#services" id="services_button" >Послуги</a></li>
+        <li><a href="#contacts"id="contacts_button" >Контакти</a></li>
+        <li><a href="#" id="language_toggle" onclick="switchLanguage()">English</a></li>
+
+      </ul>
       
-  <h2> Ви можете знайти нас в соціальних мережах </h2>
-  <img src="img/facebook.jpeg" width="125" height="125" alt="facebook"> 
-  <p><a href="https://www.facebook.com/groups/183623185865355/">https://www.facebook.com/groups/183623185865355/</a></p>
-    <img src="img/instagram.jpeg" width="125" height="125" alt="instagram"> 
-  <p><a href="https://www.instagram.com/beauty_salon_evi/?hl=ru">https://www.instagram.com/beauty_salon_evi/?hl=ru</a></p>
-     </nav>
- </header>
+    </section>
+
+
+    
+  </nav>
+  <div class="banner">
+  </div>
+</header>
+<main>
+
+  <p id="about_salon">Салон краси Evi у Львові пропонує повний спектр процедур догляду та працює виключно з професійною косметикою. Бути
+    красивою та доглянутою - це мрія кожної жінки. Наші спеціалісти докладуть усіх зусиль, щоб здивувати вас. Ми також
+    єдиний салон на вулиці Володимира Великого, де персонал розмовляє англійською. Ми знаємо секрет, як підкреслити вашу
+    природну привабливість і уповільнити плин часу. У нашому салоні краси завжди по-домашньому затишна і доброзичлива
+    атмосфера, увага і турбота про кожного клієнта. Це те місце, куди вам захочеться повернутися знову і знову.
+  </p>
+
+
+  <section id="work">
+    <h2>Наші роботи</h2>
+
+    <img src="img/makeup.jpg" width="450" height="400" alt="work">
+    <img src="img/hairboy.jpg" width="450" height="400" alt="work">
+  </section>
+
+  <section id="services">
+    <h2>Наші послуги:</h2>
+
+    <h2>Індивідуальні жіночі та чоловічі стрижки </h2>
+
+    <h2>Дитячі стрижки</h2>
+
+    <h2>Послуги майстра манікюру</h2>
+
+    <h2>Нарощення вій</h2>
+  </section>
+
+  <section id="contacts">
+
+    <h2> Ви можете знайти нас в соціальних мережах </h2>
+    <img src="img/facebook.jpeg" width="125" height="125" alt="facebook"/>
+    <p><a href="https://www.facebook.com/groups/183623185865355/">https://www.facebook.com/groups/183623185865355/</a>
+    </p>
+    <img src="img/instagram.jpeg" width="125" height="125" alt="instagram"/>
+    <p><a href="https://www.instagram.com/beauty_salon_evi/?hl=ru">https://www.instagram.com/beauty_salon_evi/?hl=ru</a>
+    </p>
+  </section>
+
 </main>
+<script src="js/script.js"></script>
 </body>
+
 </html>
