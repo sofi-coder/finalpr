@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Pathway+Gothic+One&display=swap'); 
+:root {
+    --main-color: black;
+   font-family: 'Pathway Gothic One';
+    
+}
+body {
+    max-width: 980px;
+    margin: auto;
+}
+h1, p, h2 {
+      margin: o;
+      padding: 0;
+
+}
+header nav h1 {
+
+    font-family: 'Kaushan Script';
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+header nav .top-menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none
+}
+header nav .top-menu a {
+     text-decoration: none;
+     text-transform: uppercase;
+     color: var(--main-color);
+     border: 1px solid transparent;
+     padding: 5px;
+ }
+ header nav .top-menu a:hover {
+      border: 1px solid var(--main-color);
+}
+ @media (min-width: 550px) {
+     header nav {
+         display: flex;
+         
+     }
+     header nav .top-menu{
+        flex: 1;
+
+    }
+    }
+    header div {
+       background-image: url(../img/girl.jpg);
+       background-position: center;
+       background-size: cover;
+   min-height: 500px;
+ }
+header nav h2 {
+
+    font-family: 'Kaushan Script';
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+      img {
+       background-image: url(../img/facebook.jpeg);
+       background-position: left;
+       background-size: cover;
+   min-height: 20px;
+ }
+ main .product-list .social-media img {
+   display: block;
+   width: 100%;
+ }
+ img {
+       background-image: url(../img/instagram.jpeg);
+       background-position: left;
+       background-size: cover;
+   min-height: 20px;
+ }
+ 
+ * {
+     background-color: pink;
+
+
+ }
